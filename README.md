@@ -1,19 +1,9 @@
 Das ist meine Website und mein Playground!
 
 ## Requirements/Installation
+[Laravel Requirements and Installation](https://www.iankumu.com/blog/how-to-deploy-laravel-on-apache-server/)
 
-* PHP
-```shell
-sudo apt install php8.0-{mysql,cli,common,imap,ldap,xml,fpm,curl,mbstring,zip}
-```
-* Composer
-```shell
-sudo apt install composer
-```
-* Laravel
-```shell
-composer global require laravel/installer
-```
+<hr>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
