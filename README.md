@@ -26,6 +26,8 @@ php artisan serve
 npm run dev
 ```
 
+### Setup Local MySql
+[MySQL Q'n'A](https://laracasts.com/discuss/channels/guides/setup-laravel-on-wsl-2-windows-the-right-way)
 
 
 

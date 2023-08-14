@@ -6,9 +6,10 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <a href="/quotes">View Quotes</a>
-
-    <h1> {{ $quote->author }}</h1>
-    <p> {{ $quote->quote }}</p>
+<div class="flex-center position-ref full-height">
+    <div class="content">
+        {{ $quote }}
+    </div>
+</div>
 </body>
 </html>

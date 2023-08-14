@@ -14,6 +14,7 @@ use App\Http\Controllers\QuoteController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [QuoteController::class, 'getRandomQuote']);
+
+Route::resource('/quotes', QuoteController::class);
+Route::get('/quote/{id}', [QuoteController::class, 'show']);
