@@ -9,9 +9,9 @@ class QuoteController extends Controller
 {
     public function index()
     {
-        $quotes = Quote::all();
-
-        return view('viewquotes', ['allQuotes' => $quotes]);
+        return view('viewquotes', [
+            'allQuotes' => Quote::all(),
+            ]);
     }
 
     public function show($id)
@@ -23,10 +23,8 @@ class QuoteController extends Controller
 
     public function getRandomQuote()
     {
-        $randomQuote = Quote::all()->random();
-
         return view('index', [
-            'quote' => $randomQuote,
+            'quote' => Quote::all()->random(),
         ]);
     }
 }
