@@ -1,5 +1,35 @@
 body {
-  background-color: red;
-  font-size: 12;
-  color: green;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .hamburger {
+  position: relative;
+  height: 32px;
+  width: 60px;
+}
+nav .hamburger div {
+  position: absolute;
+  background-color: rgb(54, 54, 128);
+  border-radius: 2px;
+  height: 3px;
+  right: 0;
+}
+nav .hamburger .l-line {
+  width: 100%;
+  top: 0%;
+}
+nav .hamburger .m-line {
+  width: 66%;
+  top: 50%;
+}
+nav .hamburger .x-line {
+  width: 33%;
+  top: 100%;
 }/*# sourceMappingURL=main.css.map */
