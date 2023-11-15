@@ -10,10 +10,10 @@
 window.onload = function () {
     var jsScripts = [
         '../src/scripts/navbar.js',
+        '../src/scripts/quotes.js',
     ];
 
     var htmlHead = document.getElementsByTagName('head')[0];
-    console.log(htmlHead)
 
     var scriptElement = [];
 

@@ -1,4 +1,29 @@
 @import '../src/styles/var';
 @import '../src/styles/body';
 @import '../src/styles/navbar';
+@import '../src/styles/hero';
+@import '../src/styles/skills';
+@import '../src/styles/projects';
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+}

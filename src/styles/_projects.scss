@@ -1,0 +1,43 @@
+.projects-set {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: auto;
+    width: 100%;
+
+    .project {
+        width: 30em; 
+        height: auto;
+
+        min-width: 150px;
+
+        border: 5px solid $primary-color;
+        border-radius: 40px;
+        padding: 24px;
+        margin: 24px;
+
+        .project-title {
+            margin-bottom: 1em;
+
+        }
+
+        .project-info {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items:end;
+
+            .project-description {
+
+            }
+
+            .project-link {
+
+            }
+        }
+
+    }
+
+}

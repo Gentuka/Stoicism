@@ -2,34 +2,110 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 2em;
+  overflow-x: hidden;
 }
 
 nav {
   padding: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-nav .hamburger {
-  position: relative;
-  height: 32px;
-  width: 60px;
-}
-nav .hamburger div {
-  position: absolute;
-  background-color: rgb(54, 54, 128);
-  border-radius: 2px;
-  height: 3px;
-  right: 0;
-}
-nav .hamburger .l-line {
+
+.hero {
   width: 100%;
-  top: 0%;
+  height: 20%;
+  min-height: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav .hamburger .m-line {
-  width: 66%;
-  top: 50%;
+.hero .quote-section {
+  width: 100%;
+  text-align: center;
 }
-nav .hamburger .x-line {
-  width: 33%;
-  top: 100%;
+.hero .my-image {
+  height: 100%;
+  float: right;
+}
+.hero .my-image img {
+  height: 100%;
+  border-radius: 100% 0 0 100%;
+  box-shadow: 0px 0px 30px 2px #000000;
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.skill-set .skill {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-set .skill .skill-title {
+  color: rgb(54, 54, 128);
+  text-align: center;
+}
+.skill-set .skill .skill-bar {
+  width: 200px;
+  height: 28px;
+  border-radius: 30px;
+  border: 2px solid rgb(54, 54, 128);
+  margin: 10px;
+}
+.skill-set .skill .skill-bar-fill {
+  background-color: rgb(54, 54, 128);
+}
+
+.projects-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+.projects-set .project {
+  width: 30em;
+  height: auto;
+  min-width: 150px;
+  border: 5px solid rgb(54, 54, 128);
+  border-radius: 40px;
+  padding: 24px;
+  margin: 24px;
+}
+.projects-set .project .project-title {
+  margin-bottom: 1em;
+}
+.projects-set .project .project-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: end;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
 }/*# sourceMappingURL=main.css.map */
